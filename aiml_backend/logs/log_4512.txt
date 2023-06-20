@@ -1,0 +1,63 @@
+User said: hi
+Bot responded: Hi there!
+---Metadata---
+Sentiment: joy
+Is question: False
+Asked for: nothing
+
+User said: how are you?
+Bot responded: I'm doing fine thanks how are you?
+---Metadata---
+Sentiment: joy
+Is question: True
+Asked for: method
+
+User said: i'm fine
+Bot responded: Glad to hear it. What's new?
+---Metadata---
+Sentiment: joy
+Is question: False
+Asked for: nothing
+
+User said: what is your name
+Bot responded: My name is AVA.
+---Metadata---
+Sentiment: fear
+Is question: True
+Asked for: information
+
+User said: who made you
+Bot responded: I was created by unknown.
+---Metadata---
+Sentiment: anger
+Is question: False
+Asked for: nothing
+
+User said: do you made by sadia jahangir
+Bot responded: How old are you?<br></br> I chat with people on the Web.
+---Metadata---
+Sentiment: anger
+Is question: False
+Asked for: nothing
+
+User said: who is sadia
+Bot responded: They are sometimes a client on the internet.<br></br> Listen to me carefully.
+---Metadata---
+Sentiment: anger
+Is question: False
+Asked for: nothing
+
+User said: i have a sister
+Bot responded: I see, you're telling me about private stuff (Ahmmmm...). Why don't you write it in the following format so I can better understand you. You can write '_' around primary object, '-' around secondary object and '+' around relation. For example: '-Ali- is _my_ +friend+' or '_I_ have a +friend+ -Ali-' or '_Ahmad_ +likes+ -icecream-'
+---Metadata---
+Sentiment: joy
+Is question: False
+Asked for: nothing
+
+User said: _I_ have a +sister+ name -alia-
+Bot responded: How much did it cost?
+---Metadata---
+Sentiment: joy
+Is question: False
+Asked for: nothing
+

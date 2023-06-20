@@ -1,0 +1,14 @@
+User said: hi
+Bot responded: Hello there unknown!
+---Metadata---
+Sentiment: joy
+Is question: False
+Asked for: nothing
+
+User said: what is your name
+Bot responded: My name is AVA.
+---Metadata---
+Sentiment: fear
+Is question: True
+Asked for: information
+

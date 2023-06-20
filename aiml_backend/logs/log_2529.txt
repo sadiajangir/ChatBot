@@ -1,0 +1,21 @@
+User said: hi
+Bot responded: Oh, hello again!
+---Metadata---
+Sentiment: joy
+Is question: False
+Asked for: nothing
+
+User said: hello there
+Bot responded: Oh, hello again!
+---Metadata---
+Sentiment: joy
+Is question: False
+Asked for: nothing
+
+User said: hello ava
+Bot responded: Hi there. I was just wanting to talk to unknown.
+---Metadata---
+Sentiment: joy
+Is question: False
+Asked for: nothing
+

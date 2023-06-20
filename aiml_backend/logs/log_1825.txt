@@ -1,0 +1,21 @@
+User said: hi
+Bot responded: Hi there!
+---Metadata---
+Sentiment: joy
+Is question: False
+Asked for: nothing
+
+User said: how are you?
+Bot responded: Everything is running smoothly.
+---Metadata---
+Sentiment: joy
+Is question: True
+Asked for: method
+
+User said: what is your name?
+Bot responded: My name is AVA.
+---Metadata---
+Sentiment: fear
+Is question: True
+Asked for: information
+

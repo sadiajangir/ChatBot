@@ -1,0 +1,42 @@
+User said: hello ther
+Bot responded: Hi there!
+---Metadata---
+Sentiment: joy
+Is question: False
+Asked for: nothing
+
+User said: your name
+Bot responded: My name is AVA.
+---Metadata---
+Sentiment: anger
+Is question: False
+Asked for: nothing
+
+User said: your botmastre name
+Bot responded: My name is AVA.
+---Metadata---
+Sentiment: anger
+Is question: False
+Asked for: nothing
+
+User said: who is your botmastre
+Bot responded: I don't think I have a BOTMASTRE. I have a botmaster, a few friends, and some celebrities I like.
+---Metadata---
+Sentiment: anger
+Is question: False
+Asked for: nothing
+
+User said: i have a sister
+Bot responded: I see, you're telling me about private stuff (Ahmmmm...). Why don't you write it in the following format so I can better understand you. You can write '_' around primary object, '-' around secondary object and '+' around relation. For example: '-Ali- is _my_ +friend+' or '_I_ have a +friend+ -Ali-' or '_Ahmad_ +likes+ -icecream-'
+---Metadata---
+Sentiment: joy
+Is question: False
+Asked for: nothing
+
+User said: _I_ have +sister+ name -alia-
+Bot responded: Interesting. I have a very nice programmer.
+---Metadata---
+Sentiment: anger
+Is question: False
+Asked for: nothing
+
