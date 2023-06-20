@@ -1,0 +1,42 @@
+User:	hi
+Bot:	Have a nice day
+User:	hi
+Bot:	Bye! Come back again
+User:	hello there
+Bot:	Hi there, How may I help you?
+User:	what are you doing
+Bot:	Just call me Ava.
+User:	okay ava
+Bot:	Have a nice day
+User:	hi
+Bot:	See you later
+User:	hello there
+Bot:	Hello, can I do anything for you?
+User:	i lost my student card
+Bot:	Oh, you lost your card. You may find it at the south gate of UMT
+User:	What is the fee structure of umt
+Bot:	There are no additional fee for anything. You just have to pay your quarterly fee on time.
+User:	hello there
+Bot:	Hi, how can I help you?
+User:	i lost my student card
+Bot:	Oh, you lost your card. You may find it at the south gate of UMT
+User:	I have been there but couldn't find it
+Bot:	The university offers more than 150+ bachelor's, master's, and doctoral degree programs in a diverse range of fields such as management, technology, textile design, banking, computer science, economics, education, engineering, aviation, liberal arts, information technology, artificial intelligence, media and communication, languages and mental and physical health sciences.
+User:	wrong respone
+Bot:	Have a nice day
+User:	you give me wrong answer
+Bot:	Yes Sure, How can I support you
+User:	bye
+Bot:	See you later
+User:	hi
+Bot:	Have a nice day
+User:	hello there
+Bot:	Hello, can I do anything for you?
+User:	hi
+Bot:	Bye! Come back again
+User:	hello
+Bot:	Bye! Come back again
+User:	hi
+Bot:	See you later
+User:	WHO IS YOUR BOTMASTER
+Bot:	Bye! Come back again

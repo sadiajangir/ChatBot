@@ -1,0 +1,307 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello",
+                "Hay"
+            ],
+            "responses": [
+                "Hello, can I do anything for you?",
+                "Hi, how can I help you?",
+                "Hi there, How may I help you?",
+                "How can I help you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Byeee",
+                "Byeeee",
+                "Byeeeee",
+                "Byy"
+            ],
+            "responses": [
+                "See you later",
+                "Have a nice day",
+                "Bye! Come back again"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help",
+                "TYSM",
+                "Thank you so much",
+                "Thanks for helping me.",
+                "Thanks for helping"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're most welcome!",
+                "I'm glad",
+                "If nedd any help you can ask me."
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name?",
+                "what should i call you?",
+                "what people call you?",
+                "your name",
+                "name?",
+                "Who are you?",
+                "What are you?"
+            ],
+            "responses": [
+                "My name is Ava and I'm here to assist you.",
+                "People call me Ava but you can call me tonight :D. Just kidding.",
+                "Call me Ava",
+                "People call me Ava and tell me how can I help you?",
+                "I'm Ava and I'm designed to assist you.",
+                "I am Ava",
+                "Just call me Ava."
+            ]
+        },
+        {
+            "tag": "departments",
+            "patterns": [
+                "How many departments does UMT have?",
+                "What programs do they offer?",
+                "How are the facilities and resources in each department?"
+            ],
+            "responses": [
+                "UMT have 15 plus departments.",
+                "The university offers more than 150+ bachelor's, master's, and doctoral degree programs in a diverse range of fields such as management, technology, textile design, banking, computer science, economics, education, engineering, aviation, liberal arts, information technology, artificial intelligence, media and communication, languages and mental and physical health sciences.",
+                "Each department have multiple resources and facilites according to the students, faculty and staff"
+            ]
+        },
+        {
+            "tag": "fee",
+            "patterns": [
+                "what is the fee structure of my program?",
+                "Can I pay my fee in installments?",
+                "How do I pay my fees, and what payment methods are accepted?",
+                "Is there a deadline for paying fees? What are the consequences of missing this deadline?",
+                "Is there a penalty for late payment of fees? If so, what is it?",
+                "Can I apply for a fee extension? If so, what is the process and criteria for doing so?",
+                "What is the interest rate on installment payments, and are there any additional fees or charges?",
+                "Is there a way to apply for a discount or scholarship to help with fees?",
+                "Are there any additional fees or charges that I need to be aware of, such as laboratory fees or technology fees?",
+                "How can I access my fee statement or view my fees online?",
+                "Can I speak to a counselor for more information or assistance with my fees?",
+                "Can I pay my full fee in monthly installments throughout the degree time?",
+                "Kinship, and Qarz e Hasna is not a scholarship then why is the CGPA condition applied?",
+                "What are the fee dates?"
+            ],
+            "responses": [
+                "Your fee structure is depend on the program you have been chosen. If you want more detail go visit UMT fee strcture at UMT official website. ",
+                "Yeah! You can pay you fee in installments.",
+                "You can pay it at Allied Bank that are in main-campus(south block), you can also pay it in any other branch of Allied Bank, Mezan Bank and Habib Bank.You can alos pay your fee online.",
+                "Those who fail to pay their dues by the given dates shall be liable to pay fine of Rs.100/- per day.",
+                "Rs.100/- per day is the penality for late payments of fee.",
+                "You can apply for fee extension.You can apply for extensions from your UMT student portal.",
+                "There is no interest rate or any additional charges for installments.",
+                "Yeah! There are any different kind of scholarships e.g merit, sports etc. You can apply for them. If you are eligilbe for that scholarship that will given to you.",
+                "There are no additional fee for anything. You just have to pay your quarterly fee on time.",
+                "You can access your fee voucher through your student portal.",
+                "You can talk to your advisor and also visit the PRS office for more information.",
+                "A participant can apply for monthly installments at least 5 days before the official Quarterly due date.",
+                "Kinship, and Qarz e Hasna fall under the non-merit scholarship category hence CGPA criteria is applicable.",
+                "The tuition fees must be submitted quarterly i.e. 1st of each following month: 1st March, 1st June,1st September,1st December"
+            ]
+        },
+        {
+            "tag": "student_card",
+            "patterns": [
+                "What is a student card, and why do I need one?",
+                "What kind of information is stored on my student card?",
+                "What are the benefits of having a student card, such as discounts or access to campus facilities?",
+                "Can I use my student card to access the library or other resources on campus?"
+            ],
+            "responses": [
+                "A student card verifying somebody's identity as a university student. Being a UMT student, It is necessary for you to have your student ID card. ",
+                "Your name and student id is stored on you student card.",
+                "You can enter in university by scaning your student card.",
+                "Yes, you can access library with your student card."
+            ]
+        },
+        {
+            "tag": "Course Registration & Related Information",
+            "patterns": [
+                "When do currently enrolled participants get registered for the next semester?",
+                "When do fresh participants get registered for courses?",
+                "How much course load can a participant take in a semester?",
+                "When and how can a participant make changes in registration?",
+                "What if the registration period is over but registration is unsuccessful?"
+            ],
+            "responses": [
+                "Course registration of continuing participants for the upcoming semester is done in advance, i.e. 2 weeks before the commencement of the next semester. Participants will register online through Student Portal.",
+                "The course registration of undergraduate programs for fresh participants will be done automatically.Fresh participants of MS/MPhil/PhD program participants can enroll on Orientation Day and during the first week of their classes.",
+                "A participant is required to register for courses as per Institutes/School offerings. The participant may register for up to 18 credit hours in undergraduate programs and 12 credit hours in graduate programs, in a regular semester irrespective of their CGPA.In the summer session, only two courses or up to 8 credit hours (deficiency and repeat courses only) are allowed.",
+                "As per Academic Calendar, the change in the courses is allowed during add/drop period only. Section change is permitted during the week of Courses Add/Drop.However, upon commencement of classes, a week is reserved for the Add/Drop of elective courses only with an option to only drop any core course (if required). Course Add or Change of Section of 'Core' courses will not be allowed during this week of Courses Add/Drop. These changes can be made via the Student Portal.",
+                "Immediately contact the PRS Help desk for registration."
+            ]
+        },
+        {
+            "tag": "attendence",
+            "patterns": [
+                "What is the attendance policy for my program/courses?",
+                "How is attendance recorded, and how do I check my attendance record?",
+                "What happens if I miss a class or fail to meet the attendance requirement?",
+                "Can I make up missed classes, and what is the process for doing so?",
+                "How do I inform my instructor or department of an excused absence?",
+                "How do I know if I am in danger of failing a course due to poor attendance?"
+            ],
+            "responses": [
+                "It is the policy of UMT that each student should maintain 80 percent attendence otherwise the student will not be able to sit in the finals.",
+                "The attendence is recorded online.",
+                "Your wiil not be able to give the final exam of that subject, and you will be graded SA.",
+                "You can not make up the missed class.",
+                "You can tell your instrctor about your absence through email.",
+                "You can check your attendence regularly at your student portal."
+            ]
+        },
+        {
+            "tag": "Grade and Exam related information",
+            "patterns": [
+                "How can a participant withdraw from the courses? Furthermore, what is the effect of course withdrawal on CGPA?",
+                "What is the difference between course withdrawal and course drop?"
+            ],
+            "responses": [
+                "A participant can submit a course withdrawal request on the student portal before the deadline mentioned on the academic calendar.The participant will be awarded 'W' in that particular course(s) in the transcript. However, the SGPA/CGPA shall not be affected.Participant has to pay the repeat fee when he/she will register for the course again.",
+                "A participant can add/drop any course during the add/drop period. After add/drop period adjustments in course(s) registration is not permissible. The fee for the dropped courses will not be charged.Whereas, course(s) can be withdrawn by the date given in the academic calendar. Participant has to pay the repeat fee when he/she will re-register for the course. They shall be awarded 'W' in that particular course(s) in the transcript. However, the SGPA/CGPA shall not be affected."
+            ]
+        },
+        {
+            "tag": "Degree Program related Information",
+            "patterns": [
+                " When do I take Readmission in the same program?",
+                " What is the Readmission with the issuance of New Student ID policy?",
+                "What is the Readmission Process?"
+            ],
+            "responses": [
+                "Re-admission fee of Rs. 25,000/- will be applicable to those students who will miss two consecutive semesters without taking the formal approval. I.e. Semester Freeze. In addition, this fee will also apply to those who apply for re-admission in the same program without going through the admission test.",
+                "Re-admission, without going through the admission process, is granted to only those Bachelor, Master, MS/MPhil program participants who have been dismissed on academic grounds due to low performance.The participant will have to pay the readmission/new ID issuance fee of Rs. 10,000/- and will respond to the new package.Participants will apply for Readmission through their online student portal.",
+                "Re-admission, without going through the admission process, is granted to only those Bachelor and MS/Master participants who have been dismissed on academic grounds.Dismissal based on the expiration of the maximum degree duration from the date of first registration shall also render such participants inadmissible for re-admission.The participant will have to pay the readmission fee of Rs. 25,000/- and will respond to the new package."
+            ]
+        },
+        {
+            "tag": "lost_card",
+            "patterns": [
+                "I have lost my student card.",
+                "Where can I find my student card?",
+                "My student card is lost.",
+                "I can't find my card",
+                "How can get a new student card if I lost my previous student card?",
+                "What happens if I lose my student card? How can I get a replacement?"
+            ],
+            "responses": [
+                "Oh, you lost your card. You may find it at the south gate of UMT",
+                "That's bad. You cannot enter the university without it. Go to PRS they can help you with that."
+            ]
+        },
+        {
+            "tag": "new_card",
+            "patterns": [
+                "How can I get another student card.",
+                "Can you tell me how to get a new student card.",
+                "How can get a new student card if I lost my previous student card?",
+                "How to get new student card?"
+            ],
+            "responses": [
+                "Oh, you need a new card, I see. \n1.\t Go to PRS. \n2.\t They will assist you to how to get a new student card.",
+                "\n1.\t Go to PRS. \n2.\t They will assist you to how to get a new student card."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Could you help me?",
+                "give me a hand please",
+                "Can you help?",
+                "What can you do for me?",
+                "I need a support",
+                "I need a help",
+                "support me please"
+            ],
+            "responses": [
+                "Tell me how can assist you",
+                "Tell me your problem to assist you",
+                "Yes Sure, How can I support you"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "I have a complain",
+                "I want to raise a complaint",
+                "there is a complaint about a service",
+                "Where to submit my complain",
+                "I want to submit a complain",
+                "Can you listen to my complain",
+                "Where should I go for complain"
+            ],
+            "responses": [
+                "I'd say you should go to the Office of PRS because they handle most of the students' complains.",
+                "You should file your complaint to the Office of PRS."
+            ]
+        },
+        {
+            "tag": "attendance_rules",
+            "patterns": [
+                "what is attendance criteria",
+                "How much attendance do I need?",
+                "Do I need 70% attendance?",
+                "How to get new student card?"
+            ],
+            "responses": [
+                "On average, you must maintain 75% or more attendance for each subject.",
+                "Now that you've asked your Lord a question, The Lord will answer you in a noble way. TUF is very strict when it comes to attendance. You need 75 percent attendance for a certain subject otherwise TUF won't let you attempt your final exam for that specific subject.",
+                "You must be present in at least every 3 out of 4 lectures for every subject. Simply, maintain your attendance for 'Subject A' at 75 percent or more."
+            ]
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "Who is Sadia?",
+                "I know Sadia. Do you?",
+                "Who made you?",
+                "Who is your creator?",
+                "Who created you?",
+                "Who designed you?",
+                "Do you have a God?"
+            ],
+            "responses": [
+                "Sadia is my creator."
+            ]
+        },
+        {
+            "tag": "well_being",
+            "patterns": [
+                "How are you doing?",
+                "How's it going?",
+                "How is it going?",
+                "How are you?"
+            ],
+            "responses": [
+                "I'm doing great.",
+                "I'm fine.",
+                "Its going good.",
+                "Can't complain."
+            ]
+        }
+    ]
+}
