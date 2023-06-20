@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="chatbox">
+            <div id="show-area">
+                <div id="bot-info">
+                    <div>
+                        <img src="/static/imgs/bot_dp.png" alt="bot-pic" class="bot-image">
+                    </div>
+                    <h3>AVA</h3>
+                </div>
+                <div class="menu">
+                    <ul id="menu">
+                        <li>
+                            <a href="/aiml">AIML</a>
+                        </li>
+                        <li>
+                            <a href="/logout">Logout</a>
+                        </li>
+                    </ul>
+                    <a href="#">
+                        <i class="fa-solid fa-bars" id="menu-btn"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="chat-area">
+                <div id="greet">
+                    <div>
+                        <img src="/static/imgs/bot_dp.png" alt="bot-pic" class="bot-image">
+                    </div>
+                    <h3>How may I help you?</h3>
+                </div>
+                <!-- <div class="message other-message">
+                    <p>Hey i'm joana</p>
+                    <div class="time">11:11:11 AM</div>
+                </div> -->
+            </div>
+            <div id="message-input-area">
+                <input type="text" name="meesage_input" id="message_input" placeholder="message">
+                <label for="message_input" id="message_label">Message</label>
+                <button id="send_message_btn">
+                    <i class="fas fa-arrow-up" id="send_message_icon"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="/static/script.js"></script>
+    <script src="https://kit.fontawesome.com/bfbe2856e0.js" crossorigin="anonymous"></script>
+    <script>
+        function get_bot_response(message) {
+            $.ajaxSetup({
+                data: { csrfmiddlewaretoken: '{{ csrf_token }}' },
+            });
+
+            $.ajax({
+                url: '/user_message/',
+                type: "POST",
+                data: { "message": message },
+                success: show_bot_response,
+                complete: function () { },
+                error: function (xhr, textStatus, thrownError) { }
+            });
+        };
+
+    </script>
+</body>
+
+</html>
